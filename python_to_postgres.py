@@ -149,7 +149,7 @@ def scenario_3():
                 conn.commit()
                 
             print('successfully drop existing blinded view')
-            # conn.close()
+        
         except Exception as error:
             print('Error in dropping blinded file:', error)
             
